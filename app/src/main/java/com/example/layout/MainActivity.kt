@@ -14,7 +14,6 @@ import com.example.layout.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var button_logout : Button
-    private lateinit var button_darkmode : ImageButton
     private lateinit var switch : Switch
 
     override fun onCreate(savedInstanceState: Bundle?) {
