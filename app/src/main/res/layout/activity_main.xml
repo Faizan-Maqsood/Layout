@@ -55,10 +55,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_email"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/style_button"
         android:text="Upgrade to PRO"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textAllCaps="false"
         android:paddingStart="20dp"
         android:paddingEnd="20dp">
@@ -233,35 +233,6 @@
         app:layout_constraintBottom_toBottomOf="@id/cardviewfourth"/>
 
 
-    <ImageView
-        android:id="@+id/image_invite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:src="@drawable/ic_baseline_person_add_alt_1_24"
-        app:layout_constraintStart_toStartOf="@id/cardviewfifth"
-        app:layout_constraintTop_toTopOf="@id/cardviewfifth"
-        app:layout_constraintBottom_toBottomOf="@id/cardviewfifth" />
-    <TextView
-        android:id="@+id/text_invite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/image_invite"
-        android:text="Invite a friend"
-        android:textSize="20sp"
-        app:layout_constraintTop_toTopOf="@id/cardviewfifth"
-        app:layout_constraintBottom_toBottomOf="@id/cardviewfifth"
-        android:layout_marginStart="10dp" />
-    <ImageButton
-        android:id="@+id/button_invite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@id/cardviewfifth"
-        android:layout_marginEnd="20dp"
-        android:background="#DCBFBF"
-        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
-        app:layout_constraintTop_toTopOf="@id/cardviewfifth"
-        app:layout_constraintBottom_toBottomOf="@id/cardviewfifth"/>
 
     <Button
         android:id="@+id/button_logout"
@@ -270,7 +241,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="40dp"
         android:layout_marginEnd="20dp"
-        android:text="Logout"
+        android:text="Logout on "
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textAllCaps="false"
